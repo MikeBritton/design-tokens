@@ -1,0 +1,59 @@
+{
+    "color": {
+      "choices": {
+        "primary": { "value": "#0057FF", "type": "color" },
+        "secondary": { "value": "#FF7A00", "type": "color" },
+        "background": { "value": "#F0F0F0", "type": "color" },
+        "text": { "value": "#333333", "type": "color" }
+      },
+      "decisions": {
+        "button": {
+          "primary": { "value": "{color.choices.primary.value}", "type": "color" },
+          "secondary": { "value": "{color.choices.secondary.value}", "type": "color" }
+        },
+        "background": {
+          "default": { "value": "{color.choices.background.value}", "type": "color" },
+          "inverse": { "value": "{color.choices.primary.value}", "type": "color" }
+        },
+        "text": {
+          "default": { "value": "{color.choices.text.value}", "type": "color" },
+          "highlight": { "value": "{color.choices.primary.value}", "type": "color" }
+        }
+      }
+    },
+    "font": {
+      "choices": {
+        "base": { "value": "16px", "type": "fontSize" },
+        "large": { "value": "24px", "type": "fontSize" },
+        "small": { "value": "14px", "type": "fontSize" }
+      },
+      "decisions": {
+        "heading": {
+          "h1": { "value": "{font.choices.large.value}", "type": "fontSize" },
+          "h2": { "value": "{font.choices.base.value}", "type": "fontSize" }
+        },
+        "body": {
+          "default": { "value": "{font.choices.base.value}", "type": "fontSize" },
+          "small": { "value": "{font.choices.small.value}", "type": "fontSize" }
+        }
+      }
+    },
+    "spacing": {
+      "choices": {
+        "small": { "value": "8px", "type": "spacing" },
+        "medium": { "value": "16px", "type": "spacing" },
+        "large": { "value": "24px", "type": "spacing" }
+      },
+      "decisions": {
+        "padding": {
+          "button": { "value": "{spacing.choices.medium.value}", "type": "spacing" },
+          "card": { "value": "{spacing.choices.large.value}", "type": "spacing" }
+        },
+        "margin": {
+          "section": { "value": "{spacing.choices.large.value}", "type": "spacing" },
+          "content": { "value": "{spacing.choices.medium.value}", "type": "spacing" }
+        }
+      }
+    }
+  }
+  
