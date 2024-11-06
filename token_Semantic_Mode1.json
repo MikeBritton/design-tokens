@@ -1,0 +1,52 @@
+{
+  "background": {
+    "primary-backgroundColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 7}",
+      "$description": "Use for primary background"
+    },
+    "secondary-backgroundColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 6}",
+      "$description": "Use for secondary background"
+    }
+  },
+  "border": {
+    "primary-borderColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 4}",
+      "$description": "Use for border color"
+    }
+  },
+  "content": {
+    "contentDisabled_ForegroundColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 3}",
+      "$description": "Use for disabled foreground content (text/icon/etc.)"
+    },
+    "contentPrimary-foregroundColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 2}",
+      "$description": "Use for primary foreground content (text/icon/etc.)"
+    },
+    "contentSecondary-foregroundColor": {
+      "$type": "color",
+      "$value": "{Colors.Neutral 3}",
+      "$description": "Use for secondary foreground content (text/icon/etc.)"
+    }
+  },
+  "control": {
+    "control-default-backgroundColor": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "control-default-borderColor": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "control-default-foregroundColor": {
+      "$type": "color",
+      "$value": "#ffffff"
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "Colors": {
+    "Neutral 1": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "Neutral 2": {
+      "$type": "color",
+      "$value": "#323232"
+    },
+    "Neutral 3": {
+      "$type": "color",
+      "$value": "#727272"
+    },
+    "Neutral 4": {
+      "$type": "color",
+      "$value": "#cccccc"
+    },
+    "Neutral 5": {
+      "$type": "color",
+      "$value": "#ebebeb"
+    },
+    "Neutral 6": {
+      "$type": "color",
+      "$value": "#f8f8f8"
+    },
+    "Neutral 7": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "Supporting 1": {
+      "$type": "color",
+      "$value": "#008500"
+    },
+    "Supporting 2": {
+      "$type": "color",
+      "$value": "#d71212"
+    },
+    "Supporting 3": {
+      "$type": "color",
+      "$value": "#ecfdef"
+    },
+    "Supporting 4": {
+      "$type": "color",
+      "$value": "#ffeff2"
+    },
+    "Supporting 5": {
+      "$type": "color",
+      "$value": "#fff1de"
+    },
+    "Supporting 6": {
+      "$type": "color",
+      "$value": "#e0f8ff"
+    },
+    "Supporting 7": {
+      "$type": "color",
+      "$value": "#b36100"
+    }
+  },
+  "Font": {
+    "Family": {
+      "Body": {
+        "$type": "string",
+        "$value": "Open Sans"
+      },
+      "Display": {
+        "$type": "string",
+        "$value": "Open Sans"
+      },
+      "Header": {
+        "$type": "string",
+        "$value": "Open Sans"
+      }
+    },
+    "Letter Spacing": {
+      "Body 1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Body 2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Body 3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Body 4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Body 5": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Display 1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Display 2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Display 3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Display 4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Header 1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Header 2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Header 3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Header 4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "Header 5": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "Lineheight": {
+      "Body 1": {
+        "$type": "number",
+        "$value": 24
+      },
+      "Body 2": {
+        "$type": "number",
+        "$value": 21
+      },
+      "Body 3": {
+        "$type": "number",
+        "$value": 18
+      },
+      "Body 4": {
+        "$type": "number",
+        "$value": 16
+      },
+      "Body 5": {
+        "$type": "number",
+        "$value": 15
+      },
+      "Display 1": {
+        "$type": "number",
+        "$value": 70
+      },
+      "Display 2": {
+        "$type": "number",
+        "$value": 60
+      },
+      "Display 3": {
+        "$type": "number",
+        "$value": 50
+      },
+      "Display 4": {
+        "$type": "number",
+        "$value": 40
+      },
+      "Header 1": {
+        "$type": "number",
+        "$value": 40
+      },
+      "Header 2": {
+        "$type": "number",
+        "$value": 35
+      },
+      "Header 3": {
+        "$type": "number",
+        "$value": 32.5
+      },
+      "Header 4": {
+        "$type": "number",
+        "$value": 30
+      },
+      "Header 5": {
+        "$type": "number",
+        "$value": 25
+      }
+    },
+    "Size": {
+      "Body 1": {
+        "$type": "number",
+        "$value": 16
+      },
+      "Body 2": {
+        "$type": "number",
+        "$value": 14
+      },
+      "Body 3": {
+        "$type": "number",
+        "$value": 12
+      },
+      "Body 4": {
+        "$type": "number",
+        "$value": 11
+      },
+      "Body 5": {
+        "$type": "number",
+        "$value": 10
+      },
+      "Display 1": {
+        "$type": "number",
+        "$value": 56
+      },
+      "Display 2": {
+        "$type": "number",
+        "$value": 48
+      },
+      "Display 3": {
+        "$type": "number",
+        "$value": 40
+      },
+      "Display 4": {
+        "$type": "number",
+        "$value": 32
+      },
+      "Header 1": {
+        "$type": "number",
+        "$value": 32
+      },
+      "Header 2": {
+        "$type": "number",
+        "$value": 28
+      },
+      "Header 3": {
+        "$type": "number",
+        "$value": 26
+      },
+      "Header 4": {
+        "$type": "number",
+        "$value": 24
+      },
+      "Header 5": {
+        "$type": "number",
+        "$value": 20
+      }
+    },
+    "Weight": {
+      "Bold": {
+        "$type": "string",
+        "$value": "Bold"
+      },
+      "Regular": {
+        "$type": "string",
+        "$value": "Regular"
+      }
+    }
+  },
+  "Spacing": {
+    "System 0": {
+      "$type": "number",
+      "$value": 0
+    },
+    "System 1": {
+      "$type": "number",
+      "$value": 2
+    },
+    "System 10": {
+      "$type": "number",
+      "$value": 160
+    },
+    "System 11": {
+      "$type": "number",
+      "$value": 200
+    },
+    "System 12": {
+      "$type": "number",
+      "$value": 224
+    },
+    "System 2": {
+      "$type": "number",
+      "$value": 4
+    },
+    "System 3": {
+      "$type": "number",
+      "$value": 8
+    },
+    "System 4": {
+      "$type": "number",
+      "$value": 16
+    },
+    "System 4_5": {
+      "$type": "number",
+      "$value": 24
+    },
+    "System 5": {
+      "$type": "number",
+      "$value": 32
+    },
+    "System 6": {
+      "$type": "number",
+      "$value": 56
+    },
+    "System 7": {
+      "$type": "number",
+      "$value": 80
+    },
+    "System 8": {
+      "$type": "number",
+      "$value": 96
+    },
+    "System 9": {
+      "$type": "number",
+      "$value": 120
+    }
+  }
+}

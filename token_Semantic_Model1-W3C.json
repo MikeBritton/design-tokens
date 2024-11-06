@@ -1,0 +1,52 @@
+{
+    "background": {
+      "primary-background-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-7}",
+        "$description": "Use for primary background"
+      },
+      "secondary-background-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-6}",
+        "$description": "Use for secondary background"
+      }
+    },
+    "border": {
+      "primary-border-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-4}",
+        "$description": "Use for border color"
+      }
+    },
+    "content": {
+      "content-disabled-foreground-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-3}",
+        "$description": "Use for disabled foreground content (text/icon/etc.)"
+      },
+      "content-primary-foreground-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-2}",
+        "$description": "Use for primary foreground content (text/icon/etc.)"
+      },
+      "content-secondary-foreground-color": {
+        "$type": "color",
+        "$value": "{colors.neutral-3}",
+        "$description": "Use for secondary foreground content (text/icon/etc.)"
+      }
+    },
+    "control": {
+      "control-default-background-color": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "control-default-border-color": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "control-default-foreground-color": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    }
+  }
