@@ -1,0 +1,368 @@
+{
+  "background": {
+    "primary-background-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-7}",
+      "$description": "Use for primary background"
+    },
+    "secondary-background-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-6}",
+      "$description": "Use for secondary background"
+    }
+  },
+  "border": {
+    "primary-border-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-4}",
+      "$description": "Use for border color"
+    }
+  },
+  "colors": {
+    "neutral-1": {
+      "$type": "color",
+      "$value": "#000000"
+    },
+    "neutral-2": {
+      "$type": "color",
+      "$value": "#323232"
+    },
+    "neutral-3": {
+      "$type": "color",
+      "$value": "#727272"
+    },
+    "neutral-4": {
+      "$type": "color",
+      "$value": "#CCCCCC"
+    },
+    "neutral-5": {
+      "$type": "color",
+      "$value": "#EBEBEB"
+    },
+    "neutral-6": {
+      "$type": "color",
+      "$value": "#F8F8F8"
+    },
+    "neutral-7": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "supporting-1": {
+      "$type": "color",
+      "$value": "#008500"
+    },
+    "supporting-2": {
+      "$type": "color",
+      "$value": "#D71212"
+    },
+    "supporting-3": {
+      "$type": "color",
+      "$value": "#ECFDEF"
+    },
+    "supporting-4": {
+      "$type": "color",
+      "$value": "#FFEFF2"
+    },
+    "supporting-5": {
+      "$type": "color",
+      "$value": "#FFF1DE"
+    },
+    "supporting-6": {
+      "$type": "color",
+      "$value": "#E0F8FF"
+    },
+    "supporting-7": {
+      "$type": "color",
+      "$value": "#B36100"
+    }
+  },
+  "content": {
+    "content-disabled-foreground-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-3}",
+      "$description": "Use for disabled foreground content (text/icon/etc.)"
+    },
+    "content-primary-foreground-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-2}",
+      "$description": "Use for primary foreground content (text/icon/etc.)"
+    },
+    "content-secondary-foreground-color": {
+      "$type": "color",
+      "$value": "{colors.neutral-3}",
+      "$description": "Use for secondary foreground content (text/icon/etc.)"
+    }
+  },
+  "control": {
+    "control-default-background-color": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "control-default-border-color": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "control-default-foreground-color": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    } 
+  },
+  "font": {
+    "family": {
+      "body": {
+        "$type": "string",
+        "$value": "Open Sans"
+      },
+      "display": {
+        "$type": "string",
+        "$value": "Open Sans"
+      },
+      "header": {
+        "$type": "string",
+        "$value": "Open Sans"
+      }
+    },
+    "letter-spacing": {
+      "body-1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "body-2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "body-3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "body-4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "body-5": {
+        "$type": "number",
+        "$value": 0
+      },
+      "display-1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "display-2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "display-3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "display-4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "header-1": {
+        "$type": "number",
+        "$value": 0
+      },
+      "header-2": {
+        "$type": "number",
+        "$value": 0
+      },
+      "header-3": {
+        "$type": "number",
+        "$value": 0
+      },
+      "header-4": {
+        "$type": "number",
+        "$value": 0
+      },
+      "header-5": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "line-height": {
+      "body-1": {
+        "$type": "number",
+        "$value": 24
+      },
+      "body-2": {
+        "$type": "number",
+        "$value": 21
+      },
+      "body-3": {
+        "$type": "number",
+        "$value": 18
+      },
+      "body-4": {
+        "$type": "number",
+        "$value": 16
+      },
+      "body-5": {
+        "$type": "number",
+        "$value": 15
+      },
+      "display-1": {
+        "$type": "number",
+        "$value": 140
+      },
+      "display-2": {
+        "$type": "number",
+        "$value": 70
+      },
+      "display-3": {
+        "$type": "number",
+        "$value": 60
+      },
+      "display-4": {
+        "$type": "number",
+        "$value": 50
+      },
+      "header-1": {
+        "$type": "number",
+        "$value": 50
+      },
+      "header-2": {
+        "$type": "number",
+        "$value": 40
+      },
+      "header-3": {
+        "$type": "number",
+        "$value": 35
+      },
+      "header-4": {
+        "$type": "number",
+        "$value": 32.5
+      },
+      "header-5": {
+        "$type": "number",
+        "$value": 30
+      }
+    },
+    "size": {
+      "body-1": {
+        "$type": "number",
+        "$value": 16
+      },
+      "body-2": {
+        "$type": "number",
+        "$value": 14
+      },
+      "body-3": {
+        "$type": "number",
+        "$value": 12
+      },
+      "body-4": {
+        "$type": "number",
+        "$value": 11
+      },
+      "body-5": {
+        "$type": "number",
+        "$value": 10
+      },
+      "display-1": {
+        "$type": "number",
+        "$value": 112
+      },
+      "display-2": {
+        "$type": "number",
+        "$value": 56
+      },
+      "display-3": {
+        "$type": "number",
+        "$value": 48
+      },
+      "display-4": {
+        "$type": "number",
+        "$value": 40
+      },
+      "header-1": {
+        "$type": "number",
+        "$value": 40
+      },
+      "header-2": {
+        "$type": "number",
+        "$value": 32
+      },
+      "header-3": {
+        "$type": "number",
+        "$value": 28
+      },
+      "header-4": {
+        "$type": "number",
+        "$value": 26
+      },
+      "header-5": {
+        "$type": "number",
+        "$value": 24
+      }
+    },
+    "weight": {
+      "bold": {
+        "$type": "string",
+        "$value": "Bold"
+      },
+      "regular": {
+        "$type": "string",
+        "$value": "Regular"
+      }
+    }
+  },
+  "spacing": {
+    "system-0": {
+      "$type": "number",
+      "$value": 0
+    },
+    "system-1": {
+      "$type": "number",
+      "$value": 2
+    },
+    "system-10": {
+      "$type": "number",
+      "$value": 160
+    },
+    "system-11": {
+      "$type": "number",
+      "$value": 200
+    },
+    "system-12": {
+      "$type": "number",
+      "$value": 224
+    },
+    "system-2": {
+      "$type": "number",
+      "$value": 4
+    },
+    "system-3": {
+      "$type": "number",
+      "$value": 8
+    },
+    "system-4": {
+      "$type": "number",
+      "$value": 16
+    },
+    "system-4-5": {
+      "$type": "number",
+      "$value": 24
+    },
+    "system-5": {
+      "$type": "number",
+      "$value": 32
+    },
+    "system-6": {
+      "$type": "number",
+      "$value": 56
+    },
+    "system-7": {
+      "$type": "number",
+      "$value": 80
+    },
+    "system-8": {
+      "$type": "number",
+      "$value": 96
+    },
+    "system-9": {
+      "$type": "number",
+      "$value": 120
+    }
+  }
+}
